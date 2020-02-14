@@ -3,7 +3,7 @@ kind: DeploymentConfig
 metadata:
   name: hello
 spec:
-  replicas: 10
+  replicas: 3
   selector:
     app: hello-openshift
   strategy:
